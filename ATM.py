@@ -24,5 +24,14 @@ while chances >= 0:
                     break
             elif option == 2:
                 option2 = 'y'
+                withdrawl = float(input('How Much Would You Like To Withdraw,
+                                10, 20, 40, 60, 80, 100 for other enter 1: '))
 
+if withdrawal in[10, 20, 40, 60, 80, 100]:
+            balance = balance - withdrawal
+            print('\nYour Balance is now, balance)
+            restart = input('Would You like to go back?')
+            if restart in('n', 'NO', 'N', 'no'):
+                print('Thank You ')
+            break
 
